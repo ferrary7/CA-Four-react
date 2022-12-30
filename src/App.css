@@ -1,0 +1,86 @@
+/* body{
+    background-color: #161718;
+} */
+.App {
+    text-align: center;
+  }
+.Question{
+    margin: 0 auto;
+    width: 70%;
+    background-color: #090909;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    cursor: auto;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.buttons > button{
+    cursor: pointer;
+    padding: 10px;
+}
+ul {
+    cursor: pointer;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+li {
+    margin-top: 8px;
+    background-color: rebeccapurple;
+    padding: 16px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.text {
+    color: orangered;
+    font-size: 40px;
+} 
+.flex{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+.themeChangeButton{
+    background-color: #161718;
+    width: 100px;
+    height: 40px;
+    padding: 0px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.header{
+    margin-left: 700px;
+}
+.Result{
+    margin: 0 auto;
+    width: 50%; 
+    margin-top: 64px;
+    background-color: #161718;
+    padding: 16px;
+    border-radius: 16px;
+    color: white;
+}
+button {
+    background-color: orangered; 
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width: 600px){
+    .flex{
+        display: inline;
+        justify-content: center;
+    }
+
+}
